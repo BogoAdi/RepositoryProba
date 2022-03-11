@@ -10,6 +10,10 @@ namespace ConsoleApp1
     {
         private int contor;
         private float mean;
+        public string toString()
+        {
+            return "Morning!";
+        }
         Class1() { contor = 0; }
     }
 }
